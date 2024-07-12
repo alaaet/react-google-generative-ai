@@ -1,54 +1,30 @@
 <h1 align="center">
-  Vite Template React
+  React Dashboard for connecting with Google AI Studio API
 </h1>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/SafdarJamal/vite-template-react/releases">
     <img src="https://img.shields.io/github/v/release/SafdarJamal/vite-template-react" alt="GitHub Release (latest by date)" />
   </a>
   <a href="https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/SafdarJamal/vite-template-react" alt="License" />
   </a>
-</p>
+</p> -->
 
 <p align="center">
-    A <a href="https://vitejs.dev">Vite</a> + <a href="https://react.dev">React</a> starter template.
+    A <a href="https://vitejs.dev">Vite</a> + <a href="https://react.dev">React</a> + <a href="https://ai.google.dev/aistudio">Google AI Studio</a> project
 </p>
 
-![Vite Template React](https://github.com/SafdarJamal/vite-template-react/assets/48409548/4b1eb99e-01b8-4752-91c0-76930e7948c1)
+![Dashboard](./src/assets/img/dashboard.png)
 
-## Folder Structure
-
-No configuration or complicated folder structures, just the files you need to build your app:
-
-```
-vite-template-react
-├── node_modules
-├── public
-│   ├── favicon.svg
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.jsx
-    ├── App.test.jsx
-    ├── index.css
-    ├── index.jsx
-    └── logo.svg
-    └── setupTests.js
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-```
 
 ## Development
 
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/SafdarJamal/vite-template-react.git
-cd vite-template-react
+git clone https://github.com/alaaet/react-google-generative-ai
+cd react-google-generative-ai
 ```
 
 Make it your own:
@@ -64,6 +40,13 @@ Install dependencies:
 ```
 npm i
 ```
+create your .env file with the following variable:
+```
+VITE_GEMINI_API_KEY=***********_****************************
+```
+<b>give it your API key that you can get from [here](https://aistudio.google.com/app/apikey)</b>
+
+----------------------
 
 Now, you can start a local web server by running:
 
@@ -86,8 +69,8 @@ In this project, you can run the following scripts:
 
 ## Credits
 
-Vite Template React is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
+This React Google Generative AI is built and maintained by [Alaa Abuiteiwi](https://alaaet.com).
 
 ## License
 
-This project is licensed under the terms of the [MIT license](https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE).
+This project is licensed under the terms of the [MIT license](https://github.com/alaaet/react-google-generative-ai/blob/main/LICENSE).
