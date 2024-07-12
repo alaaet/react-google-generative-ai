@@ -1,0 +1,162 @@
+.dashboard {
+  display: flex;
+  width: 95%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  background-color: #4545ff;
+  border: none; 
+  color: white; 
+  padding: 0.5rem;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.3125rem;
+}
+button:hover {
+  background-color: #2a2b2c;
+}
+
+.input-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-header button{
+  height:2rem;
+  width:2rem;
+}
+.main-container{
+  display: flex; 
+  flex-direction: column; 
+  width: -webkit-fill-available;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-bottom: 1.25rem;
+  background-color: #f7f8f9;
+}
+.input-and-config-container{
+  display: flex; 
+  flex-direction: row; 
+  align-items: stretch; 
+  width: 100%;
+
+}
+.dashboard form{
+  flex: 1;
+}
+
+.system-prompt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.system-prompt label {
+  margin-right: 0.625rem;
+}
+
+.system-prompt input {
+  flex: 1;
+  padding: 0.625rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+}
+
+.message-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.625rem;
+}
+
+.message-input textarea {
+  flex: 1;
+  resize: none;
+  padding: 0.625rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+
+}
+
+.hint{
+margin: 0;
+font-size: 11px;
+cursor: pointer;
+}
+
+.send-button-container{
+  width: 100%;
+  text-align: right;
+}
+
+.send-button {
+  margin: 0;
+  margin-left: auto;
+  width: 4rem;
+}
+
+.chat-history {
+  margin-top: 1.25rem;
+  width: 98%;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #f7f8f9;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  border-top: 3px solid #f7f8f9;
+}
+
+.message-header{
+display: flex;
+justify-content: space-between;
+}
+
+.message-header button{
+  height:2rem;
+  width:2rem;
+}
+
+.message {
+  padding: 0.625rem;
+  margin-bottom: 0.3125rem;
+  border-radius: 0.3125rem;
+}
+
+.message-user {
+  width: 30rem;
+  margin: 0.5rem 0 0 0;
+  margin-left: auto; 
+  background-color: #e9ecef;
+  border-radius: 25px;
+  padding: 1.5rem;
+}
+
+.message-assistant {
+  background-color: #ededfc;
+  border-radius: 25px;
+  margin: 0.5rem 0 0 0;
+  padding: 1.5rem;
+}
+
+.role {
+  font-weight: bold;
+  font-style: oblique;
+  margin-right: 0.3125rem;
+}
+
+.content {
+  word-break: break-all;
+}
+
+

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-left: 3px solid #4545ff;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: stretch;
+  align-items: flex-start;
+  width: 13rem;
+}
+
+.input-box{
+    display: flex;
+    width: 100%;
+}
+
+.input-box input{
+    flex: 1;
+}
+select {
+    width: 100%;
+}
+
+.value{
+    margin-left: 0.5rem;
+}
+
+.label {
+  margin-bottom: 0;
+}
+
+.input {
+  margin-top: 8px;
+}

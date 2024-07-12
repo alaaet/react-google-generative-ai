@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 100px 100px;
+}
+
+.App-logo {
+  height: 10vmin;
+  padding: 1rem;
+  pointer-events: none;
+}
+
+p{
+  margin:0;
+  margin-bottom: 0.25rem;
+}
+
+pre {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #4545ff;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
